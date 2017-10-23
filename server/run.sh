@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /data/petProjects/mmorpg/server && node server.js
+npm install && node server.js

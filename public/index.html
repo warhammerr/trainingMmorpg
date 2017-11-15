@@ -1,15 +1,24 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-		<script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>  <!--Пока так, пока не сделаем норм конфиги-->
-		<script src="client.js" type="application/javascript"></script>
-	</head>
-	<body>
-		<div id="log"></div><br>
-		<input type="text" id="input" autofocus>
-    <input type="submit" id="send" value="Send">
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>  <!--Пока так, пока не сделаем норм конфиги-->
+    <script src="client.js" type="application/javascript"></script>
+    <script src="starchip.js" type="application/javascript"></script>
+</head>
+<body onload="canvasSpaceGame()">
+<div id="content">
+    <div id="main">
+        <canvas id="mainCanvas"></canvas>
+        <canvas id="mainCanvas2"></canvas>
+    </div>
+    <div id="chat">
+        <div id="log"></div>
+        <input type="text" id="input" autofocus>
+        <input type="submit" id="send" value="Send">
+    </div>
+</div>
+</body>
 </html>

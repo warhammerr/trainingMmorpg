@@ -209,7 +209,6 @@ function whatKey(evt) {
         // If any other keys were presssed
         default:
             flag = 1; // Don't move the ship.
-            alert("Please only use the arrow keys.");
 
     }
 
